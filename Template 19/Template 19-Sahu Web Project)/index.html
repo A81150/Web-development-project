@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Shopspot site</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="CarSpot-WordPress Theme &raquo; Feed" href="https://carspot.scriptsbundle.com/shop/feed/">
+<link rel="alternate" type="application/rss+xml" title="CarSpot-WordPress Theme &raquo; Comments Feed" href="https://carspot.scriptsbundle.com/shop/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/carspot.scriptsbundle.com\/shop\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="css/block-library-style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wc-block-vendors-style-css" href="css/build-vendors-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="wc-block-style-css" href="css/build-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="css/css-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="css/css-woocommerce-layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="css/css-woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="css/css-woocommerce.css" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="popup-video-iframe-style-css" href="css/css-video_player.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-style-css" href="css/carspot-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="css/css-bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-theme-tooltip-css" href="css/user-dashboard-protip.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-theme-css" href="css/css-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-jquery-confirm-css" href="css/user-dashboard-jquery-confirm.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-datepicker-css" href="css/css-datepicker.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-theme-slug-fonts-css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900italic,900,300,300italic%7CPoppins:400,500,600&amp;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="et-line-fonts-css" href="css/css-et-line-fonts.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="css/css-font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="line-awesome-css" href="css/css-line-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="css/css-animate.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="flaticon-css" href="css/css-flaticon.css" type="text/css" media="all">
+<link rel="stylesheet" id="flaticon2-css" href="css/css-flaticon2.css" type="text/css" media="all">
+<link rel="stylesheet" id="custom-icons-css" href="css/css-custom_icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-select2-css" href="css/css-select2.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="nouislider-css" href="css/css-nouislider.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="owl-carousel-css" href="css/css-owl.carousel.css" type="text/css" media="all">
+<link rel="stylesheet" id="owl-theme-css" href="css/css-owl.theme.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-custom-css" href="css/css-custom.css" type="text/css" media="all">
+<link rel="stylesheet" id="toastr-css" href="css/css-toastr.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-woo-css" href="css/css-woocommerce.css" type="text/css" media="all">
+<link rel="stylesheet" id="minimal-css" href="css/minimal-minimal.css" type="text/css" media="all">
+<link rel="stylesheet" id="fancybox2-css" href="css/css-jquery.fancybox.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="slider-css" href="css/css-slider.css" type="text/css" media="all">
+<link rel="stylesheet" id="carspot-menu-css" href="css/css-carspot-menu.css" type="text/css" media="all">
+<link rel="stylesheet" id="responsive-media-css" href="css/css-responsive-media.css" type="text/css" media="all">
+<link rel="stylesheet" id="defualt-color-css" href="css/colors-defualt.css" type="text/css" media="all">
+<link rel="stylesheet" id="js_composer_front-css" href="css/css-js_composer.min.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="js/jquery-jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="js/jquery-blockui-jquery.blockUI.min.js" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/shop\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/shop\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/carspot.scriptsbundle.com\/shop\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/frontend-add-to-cart.min.js" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="js/vendors-woocommerce-add-to-cart.js" id="vc_woocommerce-add-to-cart-js-js"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://carspot.scriptsbundle.com/shop/wp-content/themes/carspot/js/html5shiv.min.js?ver=3.7.2' id='carspot-maxcdn1-js'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://carspot.scriptsbundle.com/shop/wp-content/themes/carspot/js/respond.min.js?ver=1.4.2' id='carspot-maxcdn2-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://carspot.scriptsbundle.com/shop/wp-json/"><link rel="alternate" type="application/json" href="https://carspot.scriptsbundle.com/shop/wp-json/wp/v2/pages/93"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://carspot.scriptsbundle.com/shop/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://carspot.scriptsbundle.com/shop/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.7.2">
+<meta name="generator" content="WooCommerce 5.2.2">
+<link rel="canonical" href="https://carspot.scriptsbundle.com/shop/">
+<link rel="shortlink" href="https://carspot.scriptsbundle.com/shop/">
+<link rel="alternate" type="application/json+oembed" href="https://carspot.scriptsbundle.com/shop/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcarspot.scriptsbundle.com%2Fshop%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://carspot.scriptsbundle.com/shop/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcarspot.scriptsbundle.com%2Fshop%2F&amp;format=xml">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+
+
+    <noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body data-rsssl="1" class="home page-template page-template-page-home page-template-page-home-php page page-id-93 theme-carspot woocommerce-no-js wpb-js-composer js-comp-ver-6.6.0 vc_responsive elementor-default elementor-kit-1322">
+        <div class="color-switcher" id="choose_color">
+            <a href="#" class="picker_close"><i class="fa fa-gear"></i></a>
+            <h5>STYLE SWITCHER</h5>
+            <div class="theme-colours">
+                <p> Choose Colour style </p>
+                <ul>
+                    <li>
+                        <a href="#." class="defualt" id="defualt"></a>
+                    </li>
+                    <li>
+                        <a href="#." class="green" id="green"></a>
+                    </li>
+                    <li>
+                        <a href="#." class="purple" id="purple"></a>
+                    </li>
+                    <li>
+                        <a href="#." class="blue" id="blue"></a>
+                    </li>
+                    <li>
+                        <a href="#." class="gold" id="gold"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+		<div class="loading" id="sb_loading">Loading&hellip;</div><div class="sb-top-bar_notification">
+    <a href="javascript:void(0)">
+        For a better experience please change your browser to CHROME, FIREFOX, OPERA or Internet Explorer.    </a>
+</div>
+<div class="colored-header">
+<div id="header-info-bar" class="dark">
+    <div class="container">
+        <div class="col-md-5 col-sm-5 col-xs-12">
+            <ul class="header-social pull-left ">
+                                                                    <li>
+                                <a class="Facebook" href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a class="Twitter" href="#">
+                                    <i class="fa fa-twitter "></i>
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a class="Linkedin" href="#">
+                                    <i class="fa fa-linkedin "></i>
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a class="Google" href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                                                                                <li>
+                                <a class="YouTube" href="#">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </li>
+                                                                                                                                                                                                                                                                                                                </ul>
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-12">
+            <a href="sign-in-to-your-account.html" class="info-bar-meta-link"><i class="fa fa-caret-right fa-fw"></i>Login</a><a href="register.html" class="info-bar-meta-link"><i class="fa fa-caret-right fa-fw"></i>Register</a>
+             
+                <a class="info-bar-meta-link shopping_bag_btn" href="cart.html"><i class="fa fa-shopping-cart"></i><span>0</span></a>
+                                </div>
+    </div>
+</div> <!-- Navigation Menu -->
+<div class="clearfix"></div>
+ <!-- menu start -->
+ <div class="ecommerce-shop">
+    <nav id="menu-1" class="mega-menu">
+<!-- menu list items container -->
+<section class="menu-list-items">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <!-- menu logo -->
+                <ul class="menu-logo">
+                <li> 
+                	    <a href="shop.html">
+        			   <img src="images/08-shopSpot.png" alt="Logo" id="sb_site_logo">
+			    </a>                </li>
+                </ul>
+                 <!-- menu links -->
+<ul class="menu-links">
+<li><a href="shop.html">Home  </a></li><li><a href="search-cars.html">Search  <i class="fa fa-angle-down fa-indicator"></i></a><ul class="drop-down-multilevel grid-col-12"></ul></li><li><a href="#">Compare  <i class="fa fa-angle-down fa-indicator"></i></a><ul class="drop-down-multilevel grid-col-12"></ul><li class="hoverTrigger"></li><li><a href="reviews.html">Reviews  <i class="fa fa-angle-down fa-indicator"></i></a><ul class="drop-down-multilevel grid-col-12"></ul><li class="hoverTrigger"></li><li><a href="#">Services  <i class="fa fa-angle-down fa-indicator"></i></a><ul class="drop-down-multilevel grid-col-12"></ul><li class="hoverTrigger"></li><li><a href="#">Pages  <i class="fa fa-angle-down fa-indicator"></i></a><ul class="drop-down-multilevel grid-col-12"></ul><li class="hoverTrigger"></li><li><a href="#">USERS  <i class="fa fa-angle-down fa-indicator"></i></a><ul class="drop-down-multilevel grid-col-12"></ul><li class="hoverTrigger"></li>
+            </div>
+        </div>
+    </div>      
+</section>
+
+</nav>
+</div>
+<!-- menu end -->
+</div>
+<!-- Navigation Menu End -->
+<!-- =-=-=-=-=-=-= Light Header End  =-=-=-=-=-=-= -->
+
+
+
+
+<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><script type="text/javascript">
+	  jQuery(document).ready(function(e) {
+		var revapi = jQuery(".rev_slider").revolution({
+		  sliderType:"standard",
+		  jsFileLocation: "https://carspot.scriptsbundle.com/shop/wp-content/themes/carspot/inc/theme_shortcodes/shortcodes/revolution-slider/js/",
+		  sliderLayout: "fullwidth",
+		  dottedOverlay: "none",
+		  delay: 5000,
+		  navigation: {
+			  keyboardNavigation: "off",
+			  keyboard_direction: "horizontal",
+			  mouseScrollNavigation: "off",
+			  onHoverStop: "off",
+			  touch: {
+				  touchenabled: "on",
+				  swipe_threshold: 75,
+				  swipe_min_touches: 1,
+				  swipe_direction: "horizontal",
+				  drag_block_vertical: false
+			  },
+			  arrows: {
+				  style: "gyges",
+				  enable: true,
+				  hide_onmobile: false,
+				  hide_onleave: true,
+				  hide_delay: 200,
+				  hide_delay_mobile: 1200,
+				  tmp: '',
+				  left: {
+					  h_align: "left",
+					  v_align: "center",
+					  h_offset: 0,
+					  v_offset: 0
+				  },
+				  right: {
+					  h_align: "right",
+					  v_align: "center",
+					  h_offset: 0,
+					  v_offset: 0
+				  }
+			  },
+				bullets: {
+				enable: true,
+				hide_onmobile: true,
+				hide_under: 800,
+				style: "hermes",
+				hide_onleave: false,
+				direction: "horizontal",
+				h_align: "center",
+				v_align: "bottom",
+				h_offset: 0,
+				v_offset: 30,
+				space: 5,
+				tmp: '<span class="tp-bullet-image"><span class="tp-bullet-imageoverlay"><span class="tp-bullet-title">'
+			}
+		  },
+		  responsiveLevels: [1240, 1024, 778],
+		  visibilityLevels: [1240, 1024, 778],
+		  gridwidth: [1170, 1024, 778, 480],
+		  gridheight: [620, 768, 960, 720],
+		  lazyType: "none",
+		  parallax: {
+			type: "scroll",
+			origo: "slidercenter",
+			speed: 1000,
+			levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 100, 55],
+			type: "scroll",
+		  },
+		  shadow: 0,
+		  spinner: "off",
+		  stopLoop: "on",
+		  stopAfterLoops: 0,
+		  stopAtSlide: -1,
+		  shuffle: "off",
+		  autoHeight: "off",
+		  fullScreenAutoWidth: "off",
+		  fullScreenAlignForce: "off",
+		  fullScreenOffsetContainer: "",
+		  fullScreenOffset: "0",
+		  hideThumbsOnMobile: "off",
+		  hideSliderAtLimit: 0,
+		  hideCaptionAtLimit: 0,
+		  hideAllCaptionAtLilmit: 0,
+		  debugMode: false,
+		  fallbacks: {
+			  simplifyAll: "off",
+			  nextSlideOnWindowFocus: "off",
+			  disableFocusListener: false,
+		  }
+		});
+	  });
+     </script><div class="rev_slider_wrapper"><div class="rev_slider" data-version="5.0"><ul><li class="tp-revslider-slidesli " data-index="rs-1" data-transition="boxfade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1500" data-thumb="https://carspot.scriptsbundle.com/shop/wp-content/uploads/sites/27/2017/06/2014-porsche-991-carrera-cabriolet-stinger-by-topcar.jpg" data-rotate="0" data-saveperformance="on" data-title="2014-porsche-991-carrera-cabriolet-stinger-by-topcar" data-description="" style="width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);"> 
+			
+        <img src="images/06-2014-porsche-991-carrera-cabriolet-stinger-by-topcar.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="8">
+			
+        
+		<div id="rs-3-layer-1" class="tp-caption responsive-tagline  tp-resizeme text-white text-uppercase text-right" data-x="[right]" data-hoffset="['30']" data-y="['middle']" data-voffset="['-125']" data-fontsize="[26]" data-lineheight="[50]" style="z-index: 999; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px; transition: none 0s ease 0s ;font-weight:700;" data-transform_idle="o:1;s:500" data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-responsive_offset="on" data-splitin="none" data-start="1000" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;">Best Shop For Car Parts</div>
+
+		<div id="rs-3-layer-2" class="tp-caption tp-resizeme responsive-tagline2 text-white main-caption bg-white font-light font-merry text-uppercase text-right" data-x="[right]" data-hoffset="['30']" data-y="['middle']" data-voffset="['-64']" data-fontsize="[40]" data-lineheight="[50]" style="z-index: 999; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px; transition: none 0s ease 0s ;font-weight:600;" data-transform_idle="o:1;s:500" data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-responsive_offset="on" data-splitin="none" data-start="1000" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;">Every Thing You Want</div>
+
+		<div id="rs-3-layer-3" class="tp-caption tp-resizeme text-white font-merry responsive-font text-right" data-x="[right]" data-hoffset="['30']" data-y="['middle']" data-voffset="['20']" data-fontsize="[18]" data-lineheight="[36]" style="z-index: 999; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px; transition: none 0s ease 0s ;font-weight:300;" data-transform_idle="o:1;s:500" data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-responsive_offset="on" data-splitin="none" data-start="1000" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;">We provides always our best services for our clients and always<br>
+try to achieve our client's trust and satisfaction.</div>
+
+
+		<div id="rs-3-layer-4" class="tp-caption tp-resizeme text-white font-merry text-uppercase" data-x="[right]" data-hoffset="['30']" data-y="['middle']" data-voffset="['100']" style="z-index: 999; transform: translate3d(0px, 0px, 0px); transform-origin: 50% 50% 0px; transition: none 0s ease 0s ;z-index: 5; white-space: nowrap; letter-spacing:1px;" data-transform_idle="o:1;s:500" data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-responsive_offset="on" data-splitin="none" data-start="1000" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"><a class="slider-main-button" href="#" target="_self">Shop Now  <i class="fa fa-arrow-circle-right"></i></a> </div>
+      </li></ul></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="custom-padding  gray ">
+				<!-- Main Container -->
+				<div class="container">
+				   <!-- Row -->
+				   <div class="row">
+						<div class="heading-panel">
+				 <div class="col-xs-12 col-md-12 col-sm-12 text-center">
+					<!-- Main Title -->
+					<h2>Car<span class="heading-color"> Accessriess</span></h2>
+					<!-- Short Description -->
+					<p class="heading-text">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
+				 </div>
+			  </div>
+						<div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Steerings" src="images/06-wheel15-300x300.png">
+                        <div class="shop-product-description">
+                           <h2><a href="ninja-silhouette.html">Steerings</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>15.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Car Doors" src="images/06-du2-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="happy-ninja.html">Car Doors</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>12.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Gears" src="images/06-gear-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="ship-your-idea-2.html">Gears</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>30.00</bdi></span>-<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>35.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Multimedia" src="images/06-au1-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-ninja-2.html">Multimedia</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>25.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="clearfix"></div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Stylish Key" src="images/06-301512352925-300x300.png">
+                        <div class="shop-product-description">
+                           <h2><a href="patient-ninja.html">Stylish Key</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>20.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Sound System" src="images/06-snd-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-logo-2.html">Sound System</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>30.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Diesel Engine" src="images/06-eer-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-album-2.html">Diesel Engine</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>7.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Filters" src="images/06-fff-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-album-3.html">Filters</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>7.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="clearfix"></div>
+						<div class="text-center">
+                           <div class="load-more-btn">
+						   
+                           </div>
+                        </div>
+				   </div>
+				</div>
+			</section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="funfacts custom-padding parallex" style="background: rgba(0, 0, 0, 0) url(https://carspot.scriptsbundle.com/shop/wp-content/uploads/sites/27/2017/06/banner.jpg) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+            <div class="container">
+               <div class="row"><div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<div class="icons">
+                        <i class="flaticon-car-1"></i>
+                     </div>
+                     <div class="number"><span class="timer" data-from="0" data-to="1238" data-speed="1500" data-refresh-interval="5">0</span></div>
+                     <h4>Total  <span>Accessories</span></h4>
+                  </div><div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<div class="icons">
+                        <i class="flaticon-settings"></i>
+                     </div>
+                     <div class="number"><span class="timer" data-from="0" data-to="820" data-speed="1500" data-refresh-interval="5">0</span></div>
+                     <h4>Spare <span>Parts</span></h4>
+                  </div><div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<div class="icons">
+                        <i class="flaticon-like-1"></i>
+                     </div>
+                     <div class="number"><span class="timer" data-from="0" data-to="1024" data-speed="1500" data-refresh-interval="5">0</span></div>
+                     <h4>Happy  <span>Users</span></h4>
+                  </div><div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<div class="icons">
+                        <i class="flaticon-earth-globe-1"></i>
+                     </div>
+                     <div class="number"><span class="timer" data-from="0" data-to="75" data-speed="1500" data-refresh-interval="5">0</span></div>
+                     <h4>Expert <span>Worker</span></h4>
+                  </div></div>
+            </div>
+         </div> </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="custom-padding  gray ">
+				<!-- Main Container -->
+				<div class="container">
+				   <!-- Row -->
+				   <div class="row">
+						
+					<div class="recent-tab">	
+						<ul class="nav nav-tabs" role="tablist"> <li role="presentation" class="active">
+                              <a data-toggle="tab" title="Car Decoration" role="tab" href="#clothing" aria-expanded="true">Car Decoration</a>
+                           </li> <li role="presentation" class="">
+                              <a data-toggle="tab" title="Modifications" role="tab" href="#music" aria-expanded="true">Modifications</a>
+                           </li> <li role="presentation" class="">
+                              <a data-toggle="tab" title="Spare Parts" role="tab" href="#posters" aria-expanded="true">Spare Parts</a>
+                           </li></ul>
+					</div>
+					<div class="tab-content">
+							<div id="clothing" role="tabpanel" class="tab-pane in fade active"><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Car Seats" src="images/06-set-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-logo-2.html">Car Seats</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>10.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Diesel Engine" src="images/06-eer-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="patient-ninja.html">Diesel Engine</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>7.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Stylish Key" src="images/06-301512352925-300x300.png">
+                        <div class="shop-product-description">
+                           <h2><a href="ninja-silhouette.html">Stylish Key</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>20.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Filters" src="images/06-fff-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-logo.html">Filters</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>7.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="clearfix"></div><div class="col-md-3 col-sm-6 col-xs-12 ">
+
+					 </div>
+					 </div><div class="clearfix"></div><div class="col-md-3 col-sm-6 col-xs-12 ">
+                    
+					 
+					 </div>
+					 </div><div class="clearfix"></div></div><div id="posters" role="tabpanel" class="tab-pane in fade "><div class="col-md-3 col-sm-6 col-xs-12 ">
+                         
+                    </div>
+				</div>
+			</section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="parallex section-padding about-us text-center" style=" background: rgba(0, 0, 0, 0) url(https://carspot.scriptsbundle.com/shop/wp-content/uploads/sites/27/2017/06/3-1.jpg) repeat fixed center center;background-size: cover;-moz-background-size: cover;-ms-background-size: cover;-o-background-size: cover;-webkit-background-size: cover;">
+         <div class="container">
+            <div class="row">
+               <!-- countTo -->
+               <div class="col-xs-12 col-sm-12 col-md-12">
+                 <div class="parallex-text">
+                 <h5>We are since 1970</h5>
+                     <h4>We Provide What You Want</h4>
+                     <a href="%20.html" class="btn btn-theme"> Contact Us </a>
+                     <a href="%20.html" class="btn btn-clean"> View Shop </a>
+                  </div>
+               </div>
+               <!-- end col-xs-6 col-sm-3 col-md-3 -->
+            </div>
+            <!-- End row -->
+         </div>
+      </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="custom-padding over-hidden  gray ">
+				<!-- Main Container -->
+				<div class="container">
+				   <!-- Row -->
+				   <div class="row">
+						<div class="heading-panel">
+				 <div class="col-xs-12 col-md-12 col-sm-12 left-side">
+					<!-- Main Title -->
+					<h2>Fresh <span class="heading-color">Items</span></h2>
+					<!-- Short Description -->
+					<p class="heading-text">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
+				 </div>
+			  </div>
+						<div class="featured-slider-shop container owl-carousel owl-theme">
+							<div class="item">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Car Seats" src="images/06-set-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-ninja.html">Car Seats</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>10.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="item">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Woo Logo" src="images/06-3-300x297.png">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-logo.html">Woo Logo</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>18.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="item">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Car LCD" src="images/06-s3-11-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-single-2.html">Car LCD</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>7.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="item">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Filters" src="images/06-fff-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-album-3.html">Filters</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>7.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="item">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Diesel Engine" src="images/06-eer-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-album-2.html">Diesel Engine</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>7.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div><div class="item">
+                     <div class="shop-grid">
+                        <div class="shop-product"> 
+						<img class="img-responsive" alt="Sound System" src="images/06-snd-300x300.jpg">
+                        <div class="shop-product-description">
+                           <h2><a href="woo-logo-2.html">Sound System</a></h2>
+                           <div class="rating-stars"><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i><i class="fa fa-star-o "></i>
+						   <a href="javascript:void(0)">(0 Reviews)</a>
+						   </div>
+						   		<span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>30.00</bdi></span></span>
+						   </div>
+
+                     		</div>
+					 </div>
+					 </div>
+						</div>
+				   </div>
+				</div>
+			</section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	 <section class="section-padding parallex  " style="background: rgba(0, 0, 0, 0) url(https://carspot.scriptsbundle.com/shop/wp-content/uploads/sites/27/2017/06/banner-6.jpg) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+            <!-- Main Container -->
+            <div class="container">
+			   
+				<div class="row">
+                  	<div class="owl-testimonial-2  owl-carousel owl-theme">
+                    <!--Testimonial Column-->
+                     <div class="single_testimonial">
+                        <div class="textimonial-content">
+                           <h4>Awesome ! Loving It</h4>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru.</p>
+                        </div>
+                        <div class="testimonial-meta-box">
+                           <img src="images/06-3-13-90x90.jpg" alt="Sonu Monu">
+                           <div class="testimonial-meta">
+                              <h3>Sonu Monu</h3>
+                              <p>CTO</p>
+                                <i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i>
+                           </div>
+                        </div>
+                     </div>
+                    <!--Testimonial Column-->
+                     <div class="single_testimonial">
+                        <div class="textimonial-content">
+                           <h4>Very quick and Fast Support</h4>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru.</p>
+                        </div>
+                        <div class="testimonial-meta-box">
+                           <img src="images/06-1-14-90x90.jpg" alt="Hania Sheikh ">
+                           <div class="testimonial-meta">
+                              <h3>Hania Sheikh </h3>
+                              <p> CEO Pvt. Inc.</p>
+                                <i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-o"></i>
+                           </div>
+                        </div>
+                     </div>
+                    <!--Testimonial Column-->
+                     <div class="single_testimonial">
+                        <div class="textimonial-content">
+                           <h4>Done in 3 Months! Awesome</h4>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru.</p>
+                        </div>
+                        <div class="testimonial-meta-box">
+                           <img src="images/06-6-90x90.jpg" alt="Humayun Sarfraz ">
+                           <div class="testimonial-meta">
+                              <h3>Humayun Sarfraz </h3>
+                              <p>  CTO Glixen Tech.</p>
+                                <i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i>
+                           </div>
+                        </div>
+                     </div>
+                    <!--Testimonial Column-->
+                     <div class="single_testimonial">
+                        <div class="textimonial-content">
+                           <h4>Just fabulous theme</h4>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru.</p>
+                        </div>
+                        <div class="testimonial-meta-box">
+                           <img src="images/06-5-1-90x90.jpg" alt="Arslan Tariq">
+                           <div class="testimonial-meta">
+                              <h3>Arslan Tariq</h3>
+                              <p>  CTO Albana Inc.</p>
+                                <i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-ofa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                           </div>
+                        </div>
+                     </div></div>	 
+				</div>
+			</div>
+	</section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="custom-padding  ">
+			<!-- Main Container -->
+			<div class="container">
+			   <div class="row">
+			   <div class="heading-panel">
+				 <div class="col-xs-12 col-md-12 col-sm-12 text-center">
+					<!-- Main Title -->
+					<h2>Latest <span class="heading-color"> Blog </span> Post</h2>
+					<!-- Short Description -->
+					<p class="heading-text">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
+				 </div>
+			  </div>
+			   <div class="col-md-12 col-xs-12 col-sm-12">
+			   <div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="blog-post">
+                              	<div class="post-img"><a href="ford-focus-production-for-north-america-will-cease-for-a-year.html"><img class="img-responsive" alt="Ford Focus Production for North America Will Cease for a Year" src="images/images-no-image.jpg"></a></div>
+							 <div class="blog-content">
+							 <div class="user-preview">
+							  <a href="carspot.html"> <img class="img-circle resize" alt="Avatar" src="images/users-1.jpg"></a>
+                     		 </div>
+                              <div class="post-info">
+							  <a href="javascript:void(0);">June 30, 2017</a>
+							  <a href="javascript:void(0);">0 comments</a>
+							  </div>
+                              <h3 class="post-title">
+							  <a href="ford-focus-production-for-north-america-will-cease-for-a-year.html">Ford Focus Production for North America Will Cease for a Year</a> </h3>
+                              <p class="post-excerpt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis erat sed lorem dictum ullamcorper. Sed vel elit sed nunc ornare auctor...
+							  <a href="ford-focus-production-for-north-america-will-cease-for-a-year.html"> <strong> Read More </strong></a>
+							  </p>
+                           </div>
+                        </div></div><div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="blog-post">
+                              	<div class="post-img"><a href="we-hear-audi-rs-models-could-be-offered-in-rear-wheel-drive.html"><img class="img-responsive" alt="We Hear: Audi RS Models Could Be Offered in Rear-Wheel Drive" src="images/images-no-image.jpg"></a></div>
+							 <div class="blog-content">
+							 <div class="user-preview">
+							  <a href="carspot.html"> <img class="img-circle resize" alt="Avatar" src="images/users-1.jpg"></a>
+                     		 </div>
+                              <div class="post-info">
+							  <a href="javascript:void(0);">June 30, 2017</a>
+							  <a href="javascript:void(0);">0 comments</a>
+							  </div>
+                              <h3 class="post-title">
+							  <a href="we-hear-audi-rs-models-could-be-offered-in-rear-wheel-drive.html">We Hear: Audi RS Models Could Be Offered in Rear-Wheel Drive</a> </h3>
+                              <p class="post-excerpt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis erat sed lorem dictum ullamcorper. Sed vel elit sed nunc ornare auctor...
+							  <a href="we-hear-audi-rs-models-could-be-offered-in-rear-wheel-drive.html"> <strong> Read More </strong></a>
+							  </p>
+                           </div>
+                        </div></div><div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="blog-post">
+                              	<div class="post-img"><a href="land-rover-freelander-2-se.html"><img class="img-responsive" alt="Land Rover Freelander 2 Se First Impression" src="images/images-no-image.jpg"></a></div>
+							 <div class="blog-content">
+							 <div class="user-preview">
+							  <a href="carspot.html"> <img class="img-circle resize" alt="Avatar" src="images/users-1.jpg"></a>
+                     		 </div>
+                              <div class="post-info">
+							  <a href="javascript:void(0);">June 30, 2017</a>
+							  <a href="javascript:void(0);">0 comments</a>
+							  </div>
+                              <h3 class="post-title">
+							  <a href="land-rover-freelander-2-se.html">Land Rover Freelander 2 Se First Impression</a> </h3>
+                              <p class="post-excerpt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis erat sed lorem dictum ullamcorper. Sed vel elit sed nunc ornare auctor...
+							  <a href="land-rover-freelander-2-se.html"> <strong> Read More </strong></a>
+							  </p>
+                           </div>
+                        </div></div>
+					<div class="clearfix"></div>
+					<div class="text-center">
+					   <div class="load-more-btn"></div>
+					</div>
+			   </div>
+			</div>
+		   </div>
+		</div>
+		</section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="client-section  gray ">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                     <div class="margin-top-10">
+                        <h3>Why Choose Us</h3>
+                        <h2>Our premium Clients</h2>
+                     </div>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                     <div class="brand-logo-area clients-bg">
+                        <div class="clients-list owl-carousel owl-theme">
+                           <div class="client-logo">
+								  <img src="images/07-client_1-1.png" class="img-responsive" alt="clients">
+							   </div><div class="client-logo">
+								  <img src="images/07-client_2.png" class="img-responsive" alt="clients">
+							   </div><div class="client-logo">
+								  <img src="images/07-client_3.png" class="img-responsive" alt="clients">
+							   </div><div class="client-logo">
+								  <img src="images/07-client_4.png" class="img-responsive" alt="clients">
+							   </div><div class="client-logo">
+								  <img src="images/07-client_2.png" class="img-responsive" alt="clients">
+							   </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
+ <footer class="footer-bg white">
+    <div class="footer-top">
+       <div class="container">
+          <div class="row">
+             <div class="col-md-3  col-sm-6 col-xs-12">
+                <div class="widget">
+                   <div class="logo">
+                    <a href="shop.html">
+			               <img src="images/08-shopSpot.png" class="img-responsive" alt="Site Logo">
+             
+            </a>              
+                   </div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et dolor eget erat fringilla port.</p>
+                   <ul class="apps-donwloads">
+                   <li><a href="#"><img src="images/images-googleplay.png" alt="Android App"></a></li><li><a href="#"><img src="images/images-appstore.png" alt="IOS App"></a></li>                      
+                   </ul>
+                </div>
+             </div>
+                           <div class="col-md-2  col-sm-6 col-xs-12">
+                <div class="widget socail-icons">
+                
+                <h5>Follow Us</h5>
+                <ul>
+                                                <li>
+                            <a class="Facebook" href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a><span><a href="#">Facebook</a></span>
+                        </li>
+                                                <li>
+                            <a class="Twitter" href="#">
+                                <i class="fa fa-twitter "></i>
+                            </a><span><a href="#">Twitter</a></span>
+                        </li>
+                                                <li>
+                            <a class="Linkedin" href="#">
+                                <i class="fa fa-linkedin "></i>
+                            </a><span><a href="#">Linkedin</a></span>
+                        </li>
+                                                <li>
+                            <a class="Google" href="#">
+                                <i class="fa fa-google-plus"></i>
+                            </a><span><a href="#">Google</a></span>
+                        </li>
+                                                <li>
+                            <a class="YouTube" href="#">
+                                <i class="fa fa-youtube-play"></i>
+                            </a><span><a href="#">YouTube</a></span>
+                        </li>
+                                                                                                                                                                   </ul>
+                </div>
+             </div>
+                            
+              
+                            <div class="col-md-2  col-sm-6 col-xs-12">
+              
+                      <div class="widget my-quicklinks">
+                        	<h5>Quick Links</h5>
+                            <ul>
+							<li><a href="about-us-2.html">About Us</a></li><li><a href="our-services.html">Our Services</a></li><li><a href="blog.html">Blog</a></li><li><a href="support-center.html">Support Center</a></li>                         </ul>
+                      </div>              
+              
+			  </div>
+                              
+               
+             <div class="col-md-5  col-sm-6 col-xs-12">
+                <div class="widget widget-newsletter">
+                   <h5>Singup for Weekly Newsletter</h5>
+                   <div class="fieldset">
+                      <p>We may send you information about related events, webinars, products and services which we believe.</p>
+                                           <form onsubmit="return checkVals();">
+                         <input name="sb_email" id="sb_email" placeholder="Enter your email address" type="text" autocomplete="off" required>
+                         <input class="submit-btn" id="save_email" value="Submit" type="button">
+                         <input class="submit-btn no-display" id="processing_req" value="Processing..." type="button">
+                         <input type="hidden" id="sb_action" value="footer_action">
+                      </form>
+                                        </div>
+                </div>          
+           <div class="copyright">  
+            <p>Copyright 2017 &copy; Theme Created By <a href="https://themeforest.net/user/scriptsbundle/portfolio">ScriptsBundle</a> All Rights Reserved.</p>        </div>
+             </div>
+                                      </div>
+       </div>
+    </div>
+</footer>	        <input type="hidden" id="is_rtl" value="0">
+        <input type="hidden" id="is_video_active" value="1"><input type="hidden" id="is_category_based" value="0">        <input type="hidden" id="profile_page" value="https://carspot.scriptsbundle.com/shop/user-dashboard/?page-type=dashboard">
+    <input type="hidden" id="login_page" value="https://carspot.scriptsbundle.com/shop/sign-in-to-your-account/">
+    <input type="hidden" id="theme_path" value="https://carspot.scriptsbundle.com/shop/wp-content/themes/carspot/">
+    <input type="hidden" id="carspot_ajax_url" value="https://carspot.scriptsbundle.com/shop/wp-admin/admin-ajax.php">
+    <input type="hidden" id="carspot_forgot_msg" value="Password sent on your email.">
+    <input type="hidden" id="carspot_profile_msg" value="Profile saved successfully.">
+    <input type="hidden" id="carspot_max_upload_reach" value="Maximum upload limit reached">
+    <input type="hidden" id="not_logged_in" value="You have been logged out.">
+    <input type="hidden" id="sb_upload_limit" value="5">
+    <!--gallery upload size-->
+    <input type="hidden" id="sb_upload_size" value="819200-800kb">
+    <input type="hidden" id="sb_upload_limit" value="5">
+
+    <input type="hidden" id="facebook_key" value="">
+    <input type="hidden" id="google_key" value="">
+    <input type="hidden" id="confirm_delete" value="Are you sure to delete this?">
+    <input type="hidden" id="confirm_update" value="Are you sure to update this?">
+    <input type="hidden" id="ad_updated" value="Ad updated successfully.">
+    <input type="hidden" id="ad_posted" value="Ad posted successfully.">
+    <input type="hidden" id="redirect_uri" value="http://carspot.scriptsbundle.com/">
+    <input type="hidden" id="select_place_holder" value="Select an option">
+    <input type="hidden" id="is_sticky_header" value="">
+    <input type="hidden" id="current_currency" value="USD">
+    <input type="hidden" id="is_sub_active" value="1">
+    <input type="hidden" id="account_deleted" value="Your account have been deleted permanently..">
+    <input type="hidden" id="nonce_error" value="This is a secure website">
+
+
+    <!--Sticky header logic-->
+    <input type="hidden" id="header_style" value="shop">
+    <input type="hidden" id="is_sticky_header" value="">
+    <input type="hidden" id="sticky_sb_logo_url" value="https://carspot.scriptsbundle.com/shop/wp-content/uploads/sites/27/2017/08/shopSpot.png">
+    <input type="hidden" id="static_sb_logo_url" value="https://carspot.scriptsbundle.com/shop/wp-content/uploads/sites/27/2017/08/shopSpot.png">
+        <input type="hidden" id="msg_notification_on" value="0">
+    <input type="hidden" id="msg_notification_time" value="500000000">
+    <input type="hidden" id="is_unread_msgs" value="0">
+    <a href="#0" class="cd-top">Top</a>
+<!-- Email verification and reset password -->
+
+
+
+<style>
+    .compare-floating-btn {
+        position: fixed;
+        right: 0;
+        top: 30%;
+        background-color: #242424;
+        color: #fff;
+        box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.07);
+        z-index: 999;
+        border-radius: 4px 0 0 4px;
+    }
+
+    .compare-floating-btn a {
+        padding: 15px 20px;
+        color: #fff;
+        display: inline-block;
+    }
+
+    .compare-floating-btn span.badge {
+        position: absolute;
+        border-radius: 50%;
+        top: -12px;
+        left: -12px;
+        background-color: #E52D27;
+        padding: 5px 10px;
+        font-family: "Poppins", sans-serif;
+        border: 2px solid #FFF;
+        font-size: 12px;
+        box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.07);
+    }
+</style>
+
+<span class="compare-floating-btn " style="display:none;">
+    <a href="shop.html" class="protip" data-pt-title=" Compare Ads" data-pt-position="left" data-pt-scheme="dark-transparent" data-pt-size="small">
+        <i class="fa fa-clone"></i>
+    </a>
+    </span>
+
+
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            $('.sb_variation').on('change', function ()
+            {
+                var get_var = '';
+                $(".sb_variation").each(function () {
+                    var val = $(this).val();
+
+                    get_var = get_var + val.replace(/\s+/g, '') + '_';
+                });
+                if ($('#' + get_var).length > 0)
+                {
+                    var res = $('#' + get_var).val();
+                    var arr = res.split("-");
+                    var sale_price = arr[0];
+                    var old_price = arr[1];
+                    var vid = arr[2];
+                    if (sale_price == "0")
+                    {
+                        $('#v_msg').html('This product is currently out of stock and unavailable.');
+                        $('#sale_price').html('');
+                        $('#old_price').html('');
+                        $('#sb_add_to_cart').hide();
+                        $('.quantity').hide();
+                        $('#product_qty').hide();
+                    } else
+                    {
+                        $('#sale_price').html('&pound;' + sale_price);
+                        $('#old_price').html('&pound;' + old_price);
+                        $('#v_msg').html('');
+                        $('#sb_add_to_cart').show();
+                        $('.quantity').show();
+                        $('#product_qty').show();
+                    }
+                    $('#variation_id').val(vid);
+                }
+            });
+            $(".sb_variation").trigger("change");
+
+            $('#sb_add_to_cart').on('click', function ()
+            {
+                if ($('#cart_msg').html() != 'Adding...')
+                {
+                    $('#cart_msg').html("Adding...");
+                    //Getting values
+                    var variation_id = $('#variation_id').val();
+                    var pid = $('#product_id').val();
+                    var qty = $('#product_qty').val();
+                    $.post('https://carspot.scriptsbundle.com/shop/wp-admin/admin-ajax.php',
+                            {action: 'sb_cart', product_id: pid, qty: qty, variation_id: variation_id}).done(function (response)
+                    {
+
+                        $('#cart_msg').html("add to cart");
+
+                        if (response != 0)
+                        {
+                            var cart_url = '';
+                                    var cart_url = '<br /><a href="https://carspot.scriptsbundle.com/shop/cart/">View Cart';
+                                    toastr.success('Product Added successfully.' + cart_url, 'Success!', {timeOut: 10000, "closeButton": true, "positionClass": "toast-bottom-right"})
+                        } else
+                        {
+                            toastr.error('Something went wrong, please try it again.', 'Error!', {timeOut: 15000, "closeButton": true, "positionClass": "toast-bottom-right"})
+                        }
+                    });
+                }
+
+            });
+
+        })(jQuery);
+    </script>
+    	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel="stylesheet" id="revolution-settings-css" href="css/css-settings.css" type="text/css" media="all">
+<link rel="stylesheet" id="revolution-navigation-css" href="css/css-navigation.css" type="text/css" media="all">
+<script type="text/javascript" src="js/vendor-wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="https://carspot.scriptsbundle.com/shop/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0">' + 'ipt>' );( document.contains ) || document.write( '<script src="https://carspot.scriptsbundle.com/shop/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0">' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://carspot.scriptsbundle.com/shop/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0">' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://carspot.scriptsbundle.com/shop/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4">' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://carspot.scriptsbundle.com/shop/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12">' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://carspot.scriptsbundle.com/shop/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2">' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://carspot.scriptsbundle.com/shop/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4">' + 'ipt>' );
+</script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/carspot.scriptsbundle.com\/shop\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/js-index.js" id="contact-form-7-js"></script>
+<script type="text/javascript" src="js/js-cookie-js.cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/shop\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/shop\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/frontend-woocommerce.min.js" id="woocommerce-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/shop\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/shop\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_c1adf8288b78bbfb78d8cf57b0bc20bf","fragment_name":"wc_fragments_c1adf8288b78bbfb78d8cf57b0bc20bf","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/frontend-cart-fragments.min.js" id="wc-cart-fragments-js"></script>
+<script type="text/javascript" src="js/js-theme.js" id="carspot-theme-js-js"></script>
+<script type="text/javascript" src="js/js-bootstrap.min.js" id="bootstrap-js"></script>
+<script type="text/javascript" src="js/js-toastr.min.js" id="toastr-js"></script>
+<script type="text/javascript" src="js/js-datepicker.min.js" id="carspot-dt-js"></script>
+<script type="text/javascript" src="js/js-animateNumber.min.js" id="animate-number-js"></script>
+<script type="text/javascript" src="js/js-easing.js" id="easing-js"></script>
+<script type="text/javascript" src="js/dist-isotope.pkgd.min.js" id="isotope-js"></script>
+<script type="text/javascript" src="js/js-carousel.min.js" id="carousel-js"></script>
+<script type="text/javascript" src="js/js-dropzone.js" id="dropzone-js"></script>
+<script type="text/javascript" src="js/js-carspot-menu.js" id="carspot-megamenu-js"></script>
+<script type="text/javascript" src="js/js-form-dropzone.js" id="form-dropzone-js"></script>
+<script type="text/javascript" src="js/js-icheck.min.js" id="icheck-js"></script>
+<script type="text/javascript" src="js/js-modernizr.js" id="modernizr-js"></script>
+<script type="text/javascript" src="js/js-jquery.appear.min.js" id="jquery-appear-js"></script>
+<script type="text/javascript" src="js/js-jquery.countTo.js" id="jquery-countTo-js"></script>
+<script type="text/javascript" src="js/js-jquery.inview.min.js" id="jquery-inview-js"></script>
+<script type="text/javascript" src="js/js-nouislider.all.min.js" id="nouislider-all-js"></script>
+<script type="text/javascript" src="js/js-perfect-scrollbar.min.js" id="perfect-scrollbar-js"></script>
+<script type="text/javascript" src="js/js-select2.min.js" id="select-2-js"></script>
+<script type="text/javascript" src="js/js-slide.js" id="slide-js"></script>
+<script type="text/javascript" src="js/js-color-switcher.js" id="color-switcher-js"></script>
+<script type="text/javascript" src="js/js-parsley.min.js" id="parsley-js"></script>
+<script type="text/javascript" src="js/recaptcha-api.js" id="recaptcha-js"></script>
+<script type="text/javascript" src="js/js-hello.js" id="hello-js"></script>
+<script type="text/javascript" src="js/js-jquery-te.min.js" id="jquery-te-js"></script>
+<script type="text/javascript" src="js/js-jquery.tagsinput.min.js" id="tagsinput-js"></script>
+<script type="text/javascript" src="js/js-bootstrap-confirmation.min.js" id="bootstrap-confirmation-js"></script>
+<script type="text/javascript" src="js/js-jquery.fancybox.min.js" id="fancybox2-js"></script>
+<script type="text/javascript" src="js/js-jquery.autocomplete.min.js" id="auto-complete-js"></script>
+<script type="text/javascript" src="js/js-protip.min.js" id="tooltop-js"></script>
+<script type="text/javascript" src="js/js-jquery-confirm.min.js" id="jquery-confirm-js"></script>
+<script type="text/javascript" src="js/js-comment-reply.min.js" id="comment-reply-js"></script>
+<script type="text/javascript" src="js/ui-core.min.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="js/ui-mouse.min.js" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="js/ui-sortable.min.js" id="jquery-ui-sortable-js"></script>
+<script type="text/javascript" src="js/js-imagesloaded.min.js" id="imagesloaded-js"></script>
+<script type="text/javascript" src="js/js-wow.js" id="wow-js"></script>
+<script type="text/javascript" src="js/js-video_player.js" id="popup-video-iframe-js"></script>
+<script type="text/javascript" id="carspot-custom-js-extra">
+/* <![CDATA[ */
+var get_strings = {"carspot_map_type":"google_map","one":"One Star","two":"Two Stars","three":"Three Stars","four":"Four Stars","five":"Five Stars","noStars":"Not Rated","Sunday":"Sunday","Monday":"Monday","Tuesday":"Tuesday","Wednesday":"Wednesday","Thursday":"Thursday","Friday":"Friday","Saturday":"Saturday","Sun":"Sun","Mon":"Mon","Tue":"Tue","Wed":"Wed","Thu":"Thu","Fri":"Fri","Sat":"Sat","Su":"Su","Mo":"Mo","Tu":"Tu","We":"We","Th":"Th","Fr":"Fr","Sa":"Sa","January":"January","February":"February","March":"March","April":"April","May":"May","June":"June","July":"July","August":"August","September":"September","October":"October","November":"November","December":"December","Jan":"Jan","Feb":"Feb","Mar":"Mar","Apr":"Apr","Jun":"Jun","Jul":"July","Aug":"Aug","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dec","Today":"Today","Clear":"Clear","dateFormat":"dateFormat","timeFormat":"timeFormat","alt":"Confirm","altMsg":"Are you sure you want to do this?","acDelMsg":"Caution: your account will be deleted permanently?","showNumber":"Show number","addToCompare":"Added to compare list","alreadyToCompare":"Already added two cars","removeToCompare":"Removed from compare list","alertConfirm":"confirm","alertCancle":"cancel"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/js-custom.js" id="carspot-custom-js"></script>
+<script type="text/javascript" src="js/js-wp-embed.min.js" id="wp-embed-js"></script>
+<script type="text/javascript" src="js/dist-js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
+<script type="text/javascript" src="js/js-jquery.themepunch.tools.min.js" id="themepunch-tools-js"></script>
+<script type="text/javascript" src="js/js-jquery.themepunch.revolution.min.js" id="themepunch-revolution-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.actions.min.js" id="revolution-extension-actions-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.carousel.min.js" id="revolution-extension-carousel-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.kenburn.min.js" id="revolution-extension-kenburn-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.layeranimation.min.js" id="revolution-extension-layeranimation-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.migration.min.js" id="revolution-extension-migration-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.navigation.min.js" id="revolution-extension-navigation-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.parallax.min.js" id="revolution-extension-parallax-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.slideanims.min.js" id="revolution-extension-slideanims-js"></script>
+<script type="text/javascript" src="js/extensions-revolution.extension.video.min.js" id="revolution-extension-video-js"></script>
+<script type="text/javascript">
+ (function($) {
+	"use strict";
+// Adding email in mailchimp
+
+	$('#processing_req').hide();
+	$('#save_email').on('click', function()
+	{
+		var sb_email	=	$('#sb_email').val();
+		var sb_action 	=	$('#sb_action').val();
+		if( carspot_validateEmail( sb_email ) )
+		{
+			$('#save_email').hide();
+			$('#processing_req').show();
+			$.post('https://carspot.scriptsbundle.com/shop/wp-admin/admin-ajax.php',
+				{action : 'sb_mailchimp_subcribe' , sb_email:sb_email, sb_action:sb_action }).done(function(response) 
+				{
+					$('#processing_req').hide();
+					$('#save_email').show();
+					if( response == 1 )
+					{
+						toastr.success('Thank you, we will get back to you.', 'Success!', {timeOut: 2500,"closeButton": true, "positionClass": "toast-bottom-right"});
+						$('#sb_email').val('');
+					}
+					else
+					{
+						toastr.error('There is some error, please check your API-KEY and LIST-ID.', 'Error!', {timeOut: 2500,"closeButton": true, "positionClass": "toast-bottom-right"});
+					}
+				});
+		}
+		else
+		{
+			toastr.error('Please add valid email.', 'Error!', {timeOut: 2500,"closeButton": true, "positionClass": "toast-bottom-right"});
+		}
+	});
+
+		
+})( jQuery );
+function checkVals()
+{
+	return false;	
+}
+	
+</script>
+</body>
+</html>
